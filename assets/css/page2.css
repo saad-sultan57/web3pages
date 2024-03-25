@@ -1,0 +1,343 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+
+
+.resp3 img {
+    margin: 0 auto;
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Secyion1 */
+.bg_buy {
+    padding-bottom: 30px;
+}
+
+.bg_buy {
+    background: #f5f5f5;
+}
+
+.test_coupon {
+    background: #cdf0ba;
+    max-width: 400px;
+    padding: 10px 10px 10px 50px;
+    border-radius: 9px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.test_coupon:before {
+    content: '';
+    display: block;
+    background: url(../images/test_coupon.png) center center no-repeat;
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+}
+
+.test_coupon span {
+    color: #447b28;
+    font-size: 15px;
+    font-family: Arial;
+    margin: 0;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.test_coupon p {
+    color: #323232;
+    font-size: 21px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    line-height: 1;
+    font-weight: bold;
+}
+
+/* TopBox */
+
+.top_box {
+    background: #008e41;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    position: relative;
+    min-height: 180px;
+}
+
+.top_box img {
+    width: 100%;
+}
+
+/* Topbox container */
+@media (min-width: 1200px) {
+    .container {
+        width: 980px;
+    }
+}
+
+.top_box ul {
+
+    color: #fff;
+    font-size: 21px;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+
+.top_box ul li {
+    margin-bottom: 1px;
+}
+
+.medicine {
+    border: 1px solid #414141;
+    background: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.product_info_test {
+    padding-top: 20px;
+}
+
+
+
+.product-checkout-info h3 {
+    margin-top: 10px;
+}
+
+.product-checkout-info h3 {
+    font-size: 20px;
+}
+
+.cupontext {
+    color: #d21b00;
+}
+
+
+
+.cina_right {
+    text-align: right;
+}
+
+.product-checkout-info h4 {
+    font-size: 22px;
+}
+
+h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+}
+
+button.deliver-now-btn {
+    background: #de0400;
+}
+
+button.deliver-now-btn,
+.btn-theme {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 22px;
+    border-radius: 35px;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 10px;
+    color: #fff;
+    border: none;
+}
+
+icon_block2 ul {
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+
+.icon_block2 p {
+    color: #5e3aa6;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.icon_block2 p {
+    font-size: 14px;
+    margin: 0 0 5px 0;
+    line-height: normal;
+}
+
+.icon_block2 img {
+    width: 20px;
+    margin-right: 20px;
+}
+
+.tooltip_h1 {
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Toltip */
+.subtip {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333333;
+    text-decoration: underline;
+    padding: 15px 10px;
+
+}
+
+.subtip .tooltip-inner {
+    background: green !important;
+
+    /* Change this to your desired color */
+}
+
+.toltips {
+    padding: 5px 0px;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Review */
+
+.review {
+    background: white;
+}
+
+.review-header h1 {
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 15px;
+    color: #313131;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+.review_body h2 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #313131;
+    text-align: left;
+    margin: 0;
+}
+
+.review_body a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #027bc8;
+}
+
+/* Client Review */
+
+.client-review {
+    background: #FAFAFA;
+    border-radius: 10px;
+}
+
+.client-review h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #027bc8;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+/* Accordions */
+.accordion-item {
+    border: 1px solid #000 !important;
+}
+
+accordion-button:not(.collapsed) {
+
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border: none !important;
+    outline: 0;
+}
+
+
+#accordionExample button {
+    font-size: 20px !important;
+    font-weight: 600;
+    font-family: inherit;
+    margin: 15px 0 0;
+    background: #fafafa !important;
+}
+
+.accordion-body p {
+    font-size: 20px !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.accordion-item {
+    background: #fafafa !important;
+}
+
+.footer {
+    -webkit-box-shadow: -4px -4px 44px -9px rgba(0, 0, 0, 0.67);
+    -moz-box-shadow: -4px -4px 44px -9px rgba(0, 0, 0, 0.67);
+    box-shadow: -4px -4px 44px -9px rgba(0, 0, 0, 0.67);
+    margin-bottom: -20px;
+}
+
+.footer ul {
+    margin-bottom: 10px;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer a {
+    font-size: 14px;
+    color: #337ab7;
+    text-decoration: none;
+}

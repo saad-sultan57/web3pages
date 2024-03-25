@@ -1,0 +1,273 @@
+/* Color Variables */
+
+:root {
+    --black: #000;
+    --white: #fff;
+    --dark-black: #1A2A3B;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* Custom classes */
+.bg-cgrey {
+    background: #ECF2F1;
+}
+
+.font1 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(81, 82, 82);
+}
+
+/* Nav */
+
+nav {
+    background: var(--dark-black);
+}
+
+.ctitle {
+    margin: 20px 0px;
+    color: #1a2a3b;
+    font-weight: 800;
+    font-size: 30px;
+    position: relative;
+}
+
+.subbox>p {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.subbox .image-circle {
+    width: 6vw;
+
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.subbox .image-circle img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.lazy {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+    border-radius: 100%;
+}
+
+/* social btns */
+#st-1 .st-btn[data-network='facebook'] {
+    background-color: #4267B2;
+}
+
+#st-1 .st-btn[data-network='twitter'] {
+    background-color: #000000;
+}
+
+#st-1 .st-btn[data-network='pinterest'] {
+    background-color: #CB2027;
+}
+
+#st-1 .st-btn[data-network='email'] {
+    background-color: #7d7d7d;
+}
+
+#st-1 .st-btn[data-network='sms'] {
+    background-color: #ffbd00;
+}
+
+
+
+#st-1 .st-btn {
+    max-width: 160px;
+}
+
+
+
+#st-1 .st-btn {
+    flex: 1;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11px;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 8px;
+    padding: 0 8px;
+
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+.texts p {
+    color: #515252;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.ctitle {
+    margin-bottom: 20px;
+    color: #1a2a3b;
+    font-weight: 800;
+    font-size: 30px;
+    position: relative;
+}
+
+
+.texts ul li {
+    display: block;
+    color: #515252;
+    line-height: 24px;
+    margin: 12px 0;
+    font-size: 18px;
+    font-weight: 400;
+    background: url(../images/tickmark.png) no-repeat 0 6px;
+    padding-left: 26px;
+}
+
+.texts p a,
+.texts ul li a {
+    color: #1d928a;
+    font-weight: 700;
+}
+
+.tatsu-shortcode {
+    border-width: 6px;
+    border-image: none;
+    border-color: rgba(35, 164, 85, 1);
+    background: #3d5a80;
+    text-align: center;
+    padding: 30px 0;
+    display: block;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: bold;
+    transition: all .3s linear;
+    border-radius: 3px;
+    text-decoration: none;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #213244;
+    padding: 50px 0;
+}
+
+footer .terms p {
+    padding-top: 15px;
+    color: #afbac6;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+
+footer .fmenus {
+    padding: 40px 0 0 0;
+}
+
+footer .copyright {
+    color: #afbac6;
+    font-size: 13px;
+    margin-top: 15px;
+    letter-spacing: 0.5px;
+}
+
+footer .fmenus li {
+    display: inline-block;
+    border-right: 1px solid #33465b;
+    padding: 0 26px 0 24px;
+}
+
+footer .fmenus li a {
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+/* Accordions */
+.accordion-item {
+    border: 1px solid #000 !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border: none !important;
+    outline: 0;
+}
+
+/* Footer Last */
+@media (max-width: 767px) {
+    .floating-bar.floating-bottom {
+        transform: translateY(0);
+    }
+}
+
+.floating-bar {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    padding: 8px 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 2.2rem !important;
+    z-index: 10;
+    -webkit-transition: transform 150ms ease;
+    -moz-transition: transform 150ms ease;
+    -ms-transition: transform 150ms ease;
+    -o-transition: transform 150ms ease;
+    transition: transform 150ms ease;
+    font-weight: bold;
+    text-align: center;
+}
+
+.floating-btn .btn-floating-bar {
+    padding: 15px;
+    float: left;
+    margin-left: 15px;
+}
+
+.cbtn {
+    display: inline-block;
+    font-size: 16px;
+    background-color: #3d5a80;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 8px 25px;
+    text-align: center;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+}
+
+.floating-bar .btn-floating-bar p:first-child {
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
